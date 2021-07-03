@@ -1,0 +1,25 @@
+{
+  "name": "tabx",
+  "version": "0.0.1",
+  "main": "newtab.html",
+  "author": "crosaapps@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel src/newtab.html"
+  },
+  "devDependencies": {
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "src/assets",
+        "staticOutDir": "assets"
+      },
+      "src/manifest.json"
+    ]
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.7"
+  }
+}
