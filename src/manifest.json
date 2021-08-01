@@ -1,5 +1,5 @@
 {
-  "name": "TabX",
+  "name": "Jot-On-Tab",
   "version": "0.0.1",
   "manifest_version": 3,
   "description": "Enhances the browsing experience by changing the default search engine",
@@ -20,5 +20,8 @@
     "16": "assets/icons/logo.png",
     "48": "assets/icons/logo.png",
     "128": "assets/icons/logo.png"
-  }
+  },
+  "permissions": [
+    "storage"
+  ]
 }

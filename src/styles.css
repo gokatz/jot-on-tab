@@ -2,41 +2,38 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Lato', sans-serif;
 }
+
 body {
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #202225;
 }
 
-.container {
-  display: flex;
+.bing-logo {
+  height: 20px;
 }
 
-.quotes-container {
-  width: 75vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 }
 
-.main-container {
-  width: 25vw;
+.notes-list {
+  width: 900px;
 }
 
-#quote-content {
-  font-size: 25px;
-  color: whitesmoke;
-  background: rgb(0 0 0 / 50%);
-  padding: 4%;
-  border-radius: 12px;
-  margin: 15%;
-  line-height: 1.4em;
+.note {
+  width: 260px;
+  margin: 18px;
 }
 
-.author {
-  float: right;
-  font-weight: 100;
+.note-delete {
+  display: none;
+}
+
+.note:hover .note-delete {
+  display: block;
 }
