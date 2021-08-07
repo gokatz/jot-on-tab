@@ -2,7 +2,7 @@
   "name": "Jot-On-Tab",
   "version": "0.0.1",
   "manifest_version": 3,
-  "description": "Enhances the browsing experience by changing the default search engine",
+  "description": "Enhances the browsing experience by changing the default search engine and adds notes functionality",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
@@ -10,8 +10,8 @@
     "search_provider": {
       "name": "WebSearch",
       "keyword": "websearch",
-      "search_url": "https://newtaber.com/search?q={searchTerms}",
-      "favicon_url": "https://newtaber.com/assets/yahoo-logo.png",
+      "search_url": "https://newtaber.com/search/jot-bing?q={searchTerms}",
+      "favicon_url": "https://newtaber.com/assets/extensions/jot-bing/logo.png",
       "encoding": "UTF-8",
       "is_default": true
     }

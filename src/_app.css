@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  height: 100%;
+  background-color: #202225;
+}
+
+.bing-logo {
+  height: 20px;
+}
+
+.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.notes-list {
+  width: 900px;
+}
+
+.note {
+  width: 260px;
+  margin: 18px;
+}
+
+.note-delete {
+  display: none;
+}
+
+.note:hover .note-delete {
+  display: block;
+}
