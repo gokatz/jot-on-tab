@@ -4,7 +4,7 @@ import Notes from './components/notes';
 
 const App = () => {
   return (
-    <div>
+    <div class="text-white">
       <div class="container mx-auto mt-28">
         <div class="flex justify-center">
           <Input />
